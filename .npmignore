@@ -1,3 +1,5 @@
-example
-example.c
+example-fail
+example-fail.c
+example-success
+example-success.c
 Makefile
