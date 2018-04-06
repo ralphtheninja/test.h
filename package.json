@@ -1,0 +1,13 @@
+{
+  "name": "test.h",
+  "version": "0.0.0",
+  "description": "A minimalistic test harness for c code.",
+  "keywords": [
+    "test",
+    "harness",
+    "c",
+    "macros"
+  ],
+  "author": "Lars-Magnus Skog <ralphtheninja@riseup.net>",
+  "license": "MIT"
+}
