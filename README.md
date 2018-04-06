@@ -2,6 +2,8 @@
 
 > A minimalistic test harness for c code.
 
+[![Build Status](https://travis-ci.org/ralphtheninja/test.h.svg?branch=master)](https://travis-ci.org/ralphtheninja/test.h)
+
 ## Usage
 
 ```c
