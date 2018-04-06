@@ -9,5 +9,9 @@
     "macros"
   ],
   "author": "Lars-Magnus Skog <ralphtheninja@riseup.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "split2": "^2.2.0",
+    "tape": "^4.9.0"
+  }
 }
