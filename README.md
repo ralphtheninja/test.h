@@ -63,7 +63,7 @@ Print out a text and call function `test_function()`.
 
 ### `ASSERT(expr);`
 
-Evaluate an expr. Does the following:
+Evaluate an expression. Does the following:
 
 * Evaluate `expr`
 * If `expr` is `true` print out message and increment counter for successful tests
