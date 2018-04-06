@@ -21,7 +21,6 @@
   }
 
 #define TEST_REPORT()                                                   \
-  double _total_count = _success_count + _failed_count;                 \
   printf("\n# Result\n");                                               \
   printf(" [OK] %4d\n", _success_count);                                \
   printf(" [FAIL] %2d\n", _failed_count);                               \
