@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "A minimalistic test harness for c code.",
   "scripts": {
-    "test": "make examples && node test"
+    "test": "make clean examples && node test"
   },
   "keywords": [
     "test",

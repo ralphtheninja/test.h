@@ -1,8 +1,8 @@
 CFLAGS=-Wall -g -fsanitize=address
 
 examples:
-	@$(CC) $(CFLAGS) example-fail.c -o example-fail
-	@$(CC) $(CFLAGS) example-success.c -o example-success
+	$(CC) $(CFLAGS) example-fail.c -o example-fail
+	$(CC) $(CFLAGS) example-success.c -o example-success
 
 clean:
-	rm -f example
+	rm -fv example-fail example-success
