@@ -20,6 +20,12 @@
     ++_success_count;                                     \
   }
 
+#define ABORT(A)                                          \
+  if (!(A)) {                                             \
+    printf(" [ABORT] " #A " (at line %d)\n", __LINE__);   \
+    exit(1);                                              \
+  }
+
 #define TEST_REPORT()                                                   \
   printf("\n# Result\n");                                               \
   printf(" [OK] %4d\n", _success_count);                                \

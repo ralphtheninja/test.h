@@ -72,6 +72,10 @@ Evaluate an expression. Does the following:
 * If `expr` is `true` print out message and increment counter for successful tests
 * If `expr` is `false` print out message (using `__LINE__`) and increment counter for failed tests
 
+### `ABORT(expr);`
+
+Like `ASSERT(expr)` but exits process directly. Useful if you don't want to continue testing for some reason to not end up in infinite loops etc.
+
 ### `TEST_REPORT();`
 
 Print out test report.
