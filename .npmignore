@@ -3,3 +3,6 @@ example-fail.c
 example-success
 example-success.c
 Makefile
+.travis.yml
+test.js
+
