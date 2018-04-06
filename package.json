@@ -1,6 +1,6 @@
 {
   "name": "test.h",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A minimalistic test harness for c code.",
   "scripts": {
     "test": "make clean examples && node test"
