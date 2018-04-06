@@ -2,6 +2,9 @@
   "name": "test.h",
   "version": "1.0.0",
   "description": "A minimalistic test harness for c code.",
+  "scripts": {
+    "test": "make examples && node test"
+  },
   "keywords": [
     "test",
     "harness",
